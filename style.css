@@ -1,0 +1,77 @@
+.ss {
+    width: 100px;
+}
+
+link[rel="icon"] {
+    border-radius: 50%;
+}
+
+.popup {
+    height: auto;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    width: 100px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: rgb(232, 50, 174);
+    background-color: rgb(232, 50, 174);
+}
+
+.co:hover {
+    background-color: rgb(230, 107, 191);
+
+}
+
+.khong:hover {
+    background-color: rgb(230, 107, 191);
+}
+
+.khong {
+    margin-left: 70px;
+}
+
+.tym {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    .popup {
+        width: 80%;
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    .btn {
+        width: 80px;
+    }
+
+    .khong {
+        margin-left: 30px;
+    }
+}
